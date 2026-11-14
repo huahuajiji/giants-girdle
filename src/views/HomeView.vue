@@ -1,3 +1,11 @@
+<script setup>
+import HeroBanner from '../components/HeroBanner.vue'
+import ProjectWheel from '../components/ProjectWheel.vue'
+</script>
+
 <template>
-  <div>首页（建设中）</div>
+  <HeroBanner />
+  <div id="main">
+    <ProjectWheel />
+  </div>
 </template>

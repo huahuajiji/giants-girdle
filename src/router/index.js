@@ -16,4 +16,10 @@ const routes = [
 export default createRouter({
   history: createWebHashHistory(),
   routes,
+  // 换页面时回到顶部；浏览器前进/后退时恢复原来的滚动位置。
+  // 不配置的话，Vue Router 会保留旧的 scrollY，短页面就会停在中间或底部。
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) return savedPosition
+    return { top: 0 }
+  },
 })
