@@ -1,5 +1,5 @@
 <script setup>
-import mePhoto from '../images/fulls/me.jpeg'
+import mePhoto from '../images/fulls/profile.jpg'
 
 // 草稿：占位内容，等你提供自己的介绍
 const stack = ['ArcGIS 全家桶（ArcMap、ArcGIS Pro、ArcGIS Server、AGOL）', 'Python（Pandas、GeoPandas、ArcPy、PyQGIS）', 'PostGIS / PostgreSQL', 'GDAL', 'QGIS']
